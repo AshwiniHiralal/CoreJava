@@ -14,15 +14,16 @@ public class ReverseString {
 		
 
 		reverse(value);
-		s.close();
-		
+  s.close();		
 	}
 	
 	public static void reverse(String name)
 	{
 		
 		 System.out.println("Original string is the "+name);
-		 System.out.println("Reverse string is the :");
+		// System.out.println("Reverse string is the :");
+		 
+		 System.out.println("TEst");
 		   
 		   for (int i=name.length()-1;i>=0;i--)
 		   {
